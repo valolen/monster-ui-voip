@@ -1,5 +1,5 @@
 {
-	"callerId": "Caller-ID",
+	"callerId": "Identificador de llamadas",
 	"e911": "E911",
 	"failover": "Conmutación por error",
 
@@ -10,12 +10,12 @@
 		"numbers": "Numeros",
 		"devices": "Dispositivos",
 		"mainNumber": "Numero Principal",
-		"callLogs": "Historial de llamadas",
+		"callLogs": "Regis. de llamadas",
 		"quickLinks": "Temas de ayuda",
-		"featureCodes": "Códigos de Opciónes",
+		"featureCodes": "Códigos de funciones",
 		"__comment": "UI-1220: Added VMBox module",
 		"__version": "3.19",
-		"vmboxes": "Cajas de correo de voz"
+		"vmboxes": "Buzón de correo de voz"
 	},
 
 	"groups": {
