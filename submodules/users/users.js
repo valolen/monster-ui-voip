@@ -5222,7 +5222,6 @@ define(function(require) {
 					caller_name: user.first_name.concat(' ', user.last_name),
 					fax_header: monster.config.whitelabel.companyName.concat(self.i18n.active().users.faxing.defaultSettings.headerExtension),
 					fax_timezone: user.timezone,
-					media: { 'fax_option': true },
 					owner_id: user.id
 				};
 
