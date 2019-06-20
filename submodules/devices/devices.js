@@ -981,7 +981,7 @@ define(function(require) {
 							enforce_security: false
 						},
 						audio: {
-							codecs: ['PCMU', 'PCMA']
+							codecs: ['PCMA', 'OPUS', 'G722', 'G729', 'PCMU']
 						},
 						video: {
 							codecs: []
