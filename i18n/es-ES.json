@@ -13,18 +13,18 @@
 		"callLogs": "Regis. de llamadas",
 		"quickLinks": "Temas de ayuda",
 		"featureCodes": "Códigos de funciones",
-		"__comment": "UI-1220: Módulos de VMBox añadidos",
+		"__comment": "UI-1220: Added VMBox module",
 		"__version": "3.19",
-		"vmboxes": "Buzón correo de voz"
+		"vmboxes": "Buzón de correo de voz"
 	},
 
 	"groups": {
 		"addFromSpare": "Agregar números sobrantes",
-		"add": "Agregar grupo",
+		"add": "Agregar Grupo",
 		"addExtension": "Agregar extensión",
 		"addNewExtension": "Números de extensión: ",
 		"buy": "Comprar números",
-		"confirmDeleteGroup": "Este grupo será borrado permanentemente. ¿Quieres continuar?",
+		"confirmDeleteGroup": "Este grupo sera borrado permanentemente. ¿Quieres continuar?",
 		"delete": "Borrar grupo",
 		"dialogCreationGroup": {
 			"availableUsers": "Usuarios disponibles",
@@ -43,24 +43,24 @@
 		"noMatchingGroup": "No hubo grupos que coincidan con su búsqueda",
 		"noGroupsConfigured": "Por favor, añada un grupo de usuarios para comenzar",
 		"noNumber": "Ninguno",
-		"noAssignedNumbers": "No hay ningún número asignado a este grupo.",
+		"noAssignedNumbers": "No hay ningun número asignado a este grupo.",
 		"noUnassignedNumbers": "No hay números disponibles para asignar a este grupo.",
-		"noAssignedNumbers": "No hay ningún número asignado a este grupo.",
+		"noAssignedNumbers": "No hay ningun número asignado a este grupo.",
 		"noMoreSpareNumbers": "No quedan números de repuesto, puedes comprar números nuevos haciendo clic en el enlace de abajo",
 		"noMatchingNumbers": "No hubo números que coincidan con su búsqueda ",
-		"port": "Transferir números telefónicos",
+		"port": "Tranferir números telefónicos",
 		"ringThisMemberFor": "Timbrar este miembro para:",
-		"ringGroupMissing": "No se ha definido timbre de grupo (group_id missing from callflow)",
+		"ringGroupMissing": "No se ha definido timbre grupo (group_id missing from callflow)",
 		"userDeleted": "Usuario eliminado",
 		"removeMember": "Eliminar miembro",
 		"distribute": "Distribuir",
 		"maxDurationTooltip": "Haga clic en este cuadro para cambiar la duración máxima de timbre para su grupo. Debe ingresar un número entre 30 y 999.",
-		"title": "Grupos en total",
+		"title": "Grupos en Total",
 		"titleGrid": {
 			"groups": "Nombre de Grupo",
 			"members": "Miembros",
 			"extensions": "Extensión",
-			"phoneNumbers": "Números de teléfono",
+			"phoneNumbers": "Números de Teléfono",
 			"features": "Funciones del grupo"
 		},
 		"toastrMessages": {
@@ -72,8 +72,8 @@
 			"headline": "Programar la grabación de llamadas en grupo",
 			"formatLabel": "Formato:",
 			"urlLabel": "URL:",
-			"urlPlaceholder": "http://tu.servidor.com/lugar/endonde/guardar/grabaciones",
-			"timeLimitLabel": "Límite de tiempo (seg):"
+			"urlPlaceholder": "http://tu.servidor.com/lugar/endonde/guardar/grabacciones",
+			"timeLimitLabel": "Limite de tiempo (sec):"
 		},
 		"ringback": {
 			"title": "Ringback",
@@ -81,25 +81,25 @@
 			"dropdownLabel": "Archivo ringback:",
 			"silence": "Silencio",
 			"defaultRingback": "Ringback de defecto",
-			"emptyUploadAlert": "Por favor elija un archivo para cargar",
+			"emptyUploadAlert": "Por favor eliga un archivo para cargar",
 			"fileTooBigAlert": "No se puede cargar un archivo con un tamaño que exceda 5 Mb",
-			"__comment": "UI-1025: Actualización de cargas de archivos multimedia a través de la IU",
+			"__comment": "UI-1025: Updating media file uploads throughout the UI",
 			"__version": "3.20_s3",
 			"audioUploadButton": "Explorar..."
 		},
 		"nextAction": {
 			"title": "Siguiente acción",
 			"headline": "Agregar acción cuando nadie contesta",
-			"label": "Si nadie contesta, desvía la llamada a:",
+			"label": "Si nadie contesta, desvia la llamada a:",
 			"menu": "Menú",
 			"mainMenu": "Menú principal (horas abiertas)",
 			"voicemails": "Buzón de voz",
 			"users": "Usuarios"
 		},
-		"__comment": "UI-819, v3.19_s1: Mostrar una ventana emergente de error cuando los datos del grupo están desactualizados.",
-		"outdatedGroupsError": "La información del grupo no está actualizada y no podrá ser dada. Por favor, póngase en contacto con su administrador para actualizar su información.",
+		"__comment": "UI-819, v3.19_s1: Showing an error popup when group data is outdated.",
+		"outdatedGroupsError": "La información del grupo no esta actualizado y no podrá ser dado. Por favor, póngase en contacto con su administrador para actualizar su información.",
 
-		"__comment": "UI-1352: Agregar una opción para habilitar/deshabilitar el desvío de llamadas en el grupo de timbre",
+		"__comment": "UI-1352: Adding an option to enable/disable call forwarding on ring group ",
 		"__version": "3.20",
 		"forward": {
 			"title": "Permitir desvío de llamadas",
@@ -107,13 +107,13 @@
 			"description": "Activa esta opción si quieres permitir que los usuarios de este grupo pulsen el botón de \"adelanto\" si esta opción está desactivada el comando del usuario del grupo de timbre será ignorado."
 		},
 
-		"__comment": "UI-1604: Agregar tutorial para nuevos usuarios",
+		"__comment": "UI-1604: Adding Walkthrough for new users",
 		"__version": "3.21",
 		"walkthrough": {
 			"steps": {
-				"1": "Añadir un grupo de usuarios específico presionando el botón. La aplicación te habilitará agregar usuarios, crear nombre de grupos y añadir extensiones numerales. Una vez que los usuarios completen sus comandos, la base de datos será actualizada de la siguiente manera:",
-				"2": "Una vez creado el grupo de usuarios, la base de datos será establecida. De esta manera se podrá hacer cualquier tipo de cambio por ejemplo el nombre del grupo, número de miembros y número de extensión.",
-				"3": "Comprar, transferir, y asignar números. Cuanto antes sea completado, automáticamente será asignado al grupo de usuarios específico.",
+				"1": "Añadir un grupo de usuarios específico presionando el botón. La aplicación te habilitará agregar usuarios, crear nombre de grupos y añadir extensiones numerales. Una vez que los usuarios completen sus comandos, la base de datos será actualizada de la siguente manera:",
+				"2": "Una vez creado el grupo de usuarios,la base de datos será establecida. De esta manera se podrá hacer qualquier tipo de cambio por ejemplo el nombre del grupo, número de miembros y número de extensión.",
+				"3": "Comprar, transferir, y asignar números. Cuanto antes completado, automaticamente será asignado al grupo de usuarios específico.",
 				"4": "Encienda y apague consistentemente cualquier característica del usuario específicamente del grupo."
 			}
 		}
@@ -125,7 +125,7 @@
 		"createDevice": "Crear dispositivo",
 		"confirmDeleteDevice": "Este dispositivo será permanentemente borrado. ¿Seguir?",
 		"deleteDevice": "Borrar dispositivo",
-		"deletedDevice": "Has borrado el dispositivo con éxito \"{{deviceName}}\".",
+		"deletedDevice": "Has borrado el dispostivo con éxito \"{{deviceName}}\".",
 		"popupSettings": {
 			"advancedTitle": "Avanzadas",
 			"basicTitle": "Características básicas",
@@ -141,7 +141,7 @@
 			"audio": {
 				"menuTitle": "Audio",
 				"sectionTitle": "Ajuste de audio",
-				"selectedCodecs": "Codecs seleccionados",
+				"selectedCodecs": "Codecs Selecionados",
 				"unselectedCodecs": "Codecs disponibles",
 				"codecs": {
 					"OPUS": "OPUS",
@@ -167,7 +167,7 @@
 				"notSet": " Cuenta principal",
 				"noE911Numbers": "No has configurado E911 en ninguno de tus números, por favor configura a través del manejador de números y regresa a esta pantalla cuando lo haya completado",
 				"address": "Dirección",
-				"__comment": "UI-1386: Actualización de dispositivos para usar el control común numberSelector",
+				"__comment": "UI-1386: Updating devices to use the numberSelector common control",
 				"__version": "v3.20_s4",
 				"selectNumber": "Selecciona un número de e911",
 				"useDefault": "Usa cuenta principal"
@@ -181,19 +181,19 @@
 					"srtp": "SRTP",
 					"zrtp": "ZRTP"
 				},
-				"__comment": "UI-1119: Agregar ignorar_completar_en otro lugar",
+				"__comment": "UI-1119: Adding ignore_complete_elsewhere",
 				"__version": "3.19",
 				"ignoreCompletedElsewhere": {
 					"label": "Ignorar, completado en otro lugar",
 					"help": "Cuando esté seleccionado los teléfonos de soporte mostrarán una llamada perdida si fue parte de un grupo de timbre en otro lugar."
 				},
-				"__comment": "UI-377: Agregar función de reinicio del dispositivo",
+				"__comment": "UI-377: Adding Restart device feature",
 				"__version": "3.21",
 				"restart": {
 					"label": "Mandar pedido de reiniciar",
 					"button": "Reiniciar",
-					"help": "Esto manda un pedido de reiniciar el dispositivo. Esta acción solamente se puede actualizar si el dispositivo está correctamente registrado en la plataforma.",
-					"success": "¡Has mandado efectivamente un pedido de reiniciar este dispositivo!"
+					"help": "Esto manda un pedido de reiniciar el dispositivo. Esta acción solamente se puede actualizar si el dispositivo está corrctamente registrado a la plataforma.",
+					"success": "¡Has efectivamente mandado un pedido de reiniciar a este diapositivo!"
 				}
 			},
 			"restrictions": {
@@ -206,13 +206,13 @@
 					"placeholder": "+18554443333",
 					"button": "Revisar",
 					"label": "El número de arriba coincide con esta regla.",
-					"__comment": "UI-727, v3.19_s2: Actualización de la forma en que se muestran las restricciones de llamadas en los dispositivos.",
+					"__comment": "UI-727, v3.19_s2: Updating the way call restrictions are displayed on devices.",
 					"allowMessage": "A este dispositivo se le permitirá llamar a {{phoneNumber}}",
 					"denyMessage": "A este dispositivo no se le permitirá llamar a {{phoneNumber}}."
 				},
-				"__comment": "UI-727, v3.19_s2: Actualización de la forma en que se muestran las restricciones de llamadas en los dispositivos.",
+				"__comment": "UI-727, v3.19_s2: Updating the way call restrictions are displayed on devices.",
 				"allow": "Allow",
-				"disabledRestrictionsInfo": "Algunos tipos de llamadas han sido restringidos para la cuenta entera y no pueden ser activadas por cada dispositivo."
+				"disabledRestrictionsInfo": "Algunos tipos de llamadas han sido restringidos para la cuenta entera y no pueden ser activadas por cada diapositivo."
 			},
 			"video": {
 				"menuTitle": "Video",
@@ -226,7 +226,7 @@
 					"H261": "H261"
 				}
 			},
-			"__comment": "UI-1351: Agregue la capacidad de configurar teclas de función para dispositivos SIP en Smart PBX",
+			"__comment": "UI-1351: Add ability to configure feature keys for SIP devices in SmartPBX",
 			"__version": "v3.20_s4",
 			"featureKeys": {
 				"menuTitle": "Teclas de funciones",
@@ -245,7 +245,7 @@
 						"presence": "Indicar cuando el usuario tiene una llamada entrante o está en el teléfono. El indicador puede utilizarse para recoger llamadas entrantes o hacer marcación rápida a ese usuario.",
 						"parking": "Indicar cuando una llamada ha sido puesta en ranura de estacionamiento disponible a la compañía entera. El indicador puede ser usada para transferir una llamada a la ranura de estacionamiento o contestar una llamada estacionada.",
 						"personal_parking": "Indicar cuando una llamada esté puesta en una ranura de estacionamiento dedicada al usuario seleccionado. El indicador puede ser usado para transferir una llamada a la ranura de estacionamiento o recibir una llamada ya estacionada.",
-						"speed_dial": "No es indicada para cualquier evento de llamada pero se puede usar para llamar el número configurado rápidamente."
+						"speed_dial": "No es indicada para cualquier evento de llamada pero se puede usar para llamar el número configurado rapidamente."
 					},
 					"typeTitle": "{{variable}}: "
 				},
@@ -262,10 +262,10 @@
 		"classifiers": {
 			"unknown": {
 				"name": "Además de los de arriba",
-				"help": "Por favor seleccione esta opción cuando quieres que esta cuenta haga llamadas a cualquier número no mencionado en la lista. (Cuando el formato del número es desconocido al sistema)"
+				"help": "Por favor seleccione esta opción cuando quieres que esta cuenta haga llamadas a cualquier número no mencionado en la lista. (Cuando el formato del número es desconocido al sistema)"
 			}
 		},
-		"noMatchingDevices": "No se ha encontrado ningún dispositivo que corresponda con su búsqueda",
+		"noMatchingDevices": "No se ha encontrado ningún dispositivo que correspondan con su búsqueda",
 		"noDevicesConfigured": "No hay dispositivos configurados",
 		"provisionerPopup": {
 			"brandHeadline": "Seleccione la marca del dispositivo:",
@@ -280,7 +280,7 @@
 			"editTitle": "Editando el dispositivo SIP: {{name}}",
 			"macAddress": "Dirección MAC",
 			"macAddressPlaceholder": "19:33:1A:B2:12:58",
-			"new": "Dispositivo nuevo de SIP",
+			"new": "Disposivo nuevo de SIP",
 			"deviceName": "Nombre de dispositivo"
 		},
 		"sip_uri": {
@@ -319,8 +319,8 @@
 			"deviceName": "Nombre de dispositivo",
 			"editTitle": "Editar móvil: {{name}}",
 			"mdn": "MDN",
-			"mdnPlaceholder": "Número de teléfono de 10 dígitos",
-			"new": "Móvil nuevo"
+			"mdnPlaceholder": "número de teléfono de 10 dígitos",
+			"new": "Móvil nuevo "
 		},
 		"smartphone": {
 			"addTitle": "Adición de un teléfono inteligente",
@@ -373,7 +373,7 @@
 			"cellphone": "Teléfono móvil",
 			"sip_device": "Teléfono SIP",
 			"smartphone": "Teléfono Inteligente",
-			"mobile": "Móvil",
+			"mobile": "Mòvil",
 			"softphone": "Teléfono de software",
 			"landline": "Teléfono fijo",
 			"fax": "Fax",
@@ -403,7 +403,7 @@
 		"dialogChangePin": {
 			"help": "Puede utilizar esta ventana para configurar un PIN temporal para un usuario que perdió su PIN por ejemplo.",
 			"pin": "PIN",
-			"pinPlaceholder": "Min. 4 dígitos",
+			"pinPlaceholder": "Min. 4 digitos",
 			"title": "Actualización de PIN"
 		},
 		"dialogCreationUser": {
@@ -420,7 +420,7 @@
 			"title": "Crear usuario ",
 			"vmboxAlreadyExist": "Este número de buzón del correo de voz ya se ha usado, por favor seleccione otro número del buzón del correo de voz.",
 			"vmboxNumber": "Número del buzón del correo de voz",
-			"__comment": "UI-814: Añadir la opción de enviar automáticamente correo de la creación de usuario",
+			"__comment": "UI-814: Añadir la opción de enviar automáticamente correo creación de usuario",
 			"__version": "3.20_s3",
 			"sendWelcomeEmail": "Enviar las credenciales a este usuario"
 		},
@@ -429,19 +429,19 @@
 			"changeUsername": "Cambiar",
 			"firstName": "Nombre",
 			"lastName": "Apellido",
-			"role": "Título",
+			"role": "Titulo",
 			"timezone": "Zona horaria",
 			"vmboxNumber": "# de correo de voz",
 			"timeout": "Tiempo de espera de llamada",
 			"timeoutSec": "Segundos",
-			"timeoutEdit": "Editar en función búscame-sígueme ",
-			"timeoutEditHint": "El tiempo de supervisión de llamada se anula por la función de búscame-sígueme. Seleccione el siguiente enlace para editarlo.",
+			"timeoutEdit": "Editar en función Find-Me-Follow-Me",
+			"timeoutEditHint": "El tiempo de supervisión de llamada se anula por la función de Find-Me-Follow-Me. Seleccione el siguiente enlace para editarlo.",
 			"disabledTimeoutHint": "Necesita al menos un número o extensión para configurar el tiempo de espera de llamada.",
 			"__comment": "UI-1109: Agregar la configuración de identificación de la presencia en el documento de usuario",
 			"__version": "3.19",
-			"presenceId": "Número de extensión principal",
+			"presenceId": "Número de extensión principal ",
 			"noPresenceID": "Ninguno",
-			"__comment": "UI-1066: Al agregar texto de ayuda, desplace los iconos del formulario de edición de usuario",
+			"__comment": "UI-1066: Adding Help text hover the icons of the user edition form",
 			"__version": "3.19",
 			"nameHelp": "Escriba el nombre del usuario en la primera entrada, y el apellido del usuario en la segunda",
 			"loginHelp": "Este es el usuario de este dispositivo, que se utiliza para iniciar sesión en la aplicación",
@@ -450,17 +450,17 @@
 			"languageHelp": "Esta función permite cambiar el idioma del texto que se muestra en la INTERFAZ DE USUARIO (UI)",
 			"timezoneHelp": "Esto establece la zona horaria usada para dispositivos de usuario y buzón de voz",
 			"ringingHelp": "Esto fijará el tiempo de espera de llamada para este usuario y sus dispositivos. Por ejemplo, si se establece en 20, este usuario sonara durante 20 segundos antes de que el sistema lo traslade a su casilla de correo de voz ",
-			"mainExtensionHelp": "Esto definirá el identificador (Caller-ID) utilizado para este usuario para llamadas dentro del sistema, así como establecer la identificación de su presencia en ese número"
+			"mainExtensionHelp": "Esto definirá el identificador (Caller-ID) utilizado para este usuario para llamadas dentro del sistema, así como establecer la identificación de su presencia en ese número "
 		},
 		"delete": "Eliminar usuario ",
 		"errorCallerId": "Antes de configurar el identificador (Caller-ID) de usuario, se necesita asignarle un número ",
 		"errorNumberFaxing": "Antes de configurar el número que manda por fax de este usuario, tiene que conseguir algunos números de repuesto en su cuenta (Usted puede comprar nuevos números en la sección de números en el menú de la izquierda).",
 		"featureOn": "Activar",
 		"includeInDirectory": "Incluya al usuario en el directorio de la compañía",
-		"noMatchingDevices": "No hay dispositivos correspondientes con su búsqueda",
-		"noMatchingNumbers": "No hubo números encontrados correspondientes con su búsqueda",
-		"noMatchingUser": "No se han encontrado datos que correspondan con su búsqueda",
-		"noUsersConfigured": "Por favor añada un usuario para comenzar",
+		"noMatchingDevices": "No hay dispositivos correspondientes a su búsqueda",
+		"noMatchingNumbers": "No hubo números encontrados correspondientes a su búsqueda",
+		"noMatchingUser": "No se han encontrado datos que corresponden a su búsqueda",
+		"noUsersConfigured": "Por favor añada a un usuario para comenzar",
 		"noMoreSpareDevices": "No hay ningún dispositivo de reserva, puede adquirir nuevos dispositivos de inventario de los dispositivos",
 		"noMoreSpareNumbers": "No hay ningún número de reserva, usted puede comprar nuevos números haciendo clic en el enlace de abajo",
 		"noAssignedDevices": "En este momento, no hay ningún dispositivo asignado a este usuario.",
@@ -477,7 +477,7 @@
 		"noUserCallflow": "Se ha producido un error. No hay flujo de llamada asignado a este usuario, por eso no se pueden añadir al directorio de la empresa ",
 		"port": "Transferir números",
 		"resetPassword": "Reajustar contraseña",
-		"resendInstructions": "Reenviar instrucciones",
+		"resendInstructions": "Reenvíar instrucciones",
 		"title": "Usuarios totales",
 		"titleGrid": {
 			"users": "Configuración de usuarios",
@@ -494,31 +494,31 @@
 			"userDelete": "¡Se eliminó correctamente {{ name }} desde el PBX inteligente!",
 			"userUpdated": "Ha actualizado correctamente {{ name }} configuración.",
 			"pinUpdated": "Ha actualizado correctamente el PIN de {{ name }}.",
-			"__comment": "UI-1033: Ahora elimine correctamente la función de identificación de llamadas, si eliminamos un número establecido como ese número de identificación de llamadas",
+			"__comment": "UI-1033: Now properly remove the Caller-ID Feature if we remove a number that was set as that Caller-ID Number",
 			"__version": "3.20",
 			"callerIDDeleted": "El número de identificador de llamadas de este usuario fue fijado en un número que no fue asignado a él, por lo que hemos deshabilitado la característica del identificador (Caller-ID)."
 		},
 		"uploadPicture": "Cargar una imagen",
 		"user": "Usuario",
 		"call_forward": {
-			"directCallsOnly": "Desvía llamadas directas solamente",
+			"directCallsOnly": "Desvía llamadas directas sólamente",
 			"headline": "Configuración de desvío de llamadas del usuario",
 			"keepCallerId": "Mantener su identificador de llamadas",
 			"label": "Desviar todas las llamadas a",
-			"mobile": "Un  teléfono móvil ",
+			"mobile": "Un  teléfono móvil ",
 			"deskphone": "Un teléfono de escritorio ",
 			"number": "Este número",
 			"placeholder": "+14157283992",
-			"requireKeyPress": "Deja mensajes de voz en números desviados ",
+			"requireKeyPress": "Deja mensajes de voz en números desvíados ",
 			"title": "Desvío de llamadas",
-			"timeoutWarning": "Para dejar mensajes de voz en números desviados, su tiempo de espera de llamada debe ser ajustado a menos de 30 seg. Salvando ahora, será automáticamente desviado a la edición del usuario donde puede actualizar el intervalo de espera que suena."
+			"timeoutWarning": "Para dejar mensajes de voz en números desvíados, su tiempo de espera de llamada debe ser ajustado a menos de 30 seg. Salvando ahora, será automáticamente desviado a la edición del usuario donde puede actualizar el intervalo de espera que suena."
 		},
 		"callRecording": {
 			"title": "Grabación de llamadas entrantes",
 			"headline": "Configuración de grabación de llamada de usuario",
 			"formatLabel": "Formato:",
 			"urlLabel": "URL:",
-			"urlPlaceholder": "http://tu.servidor.com/lugar/de/salvar/grabaciones",
+			"urlPlaceholder": "http://tu.servidor.com/lugar/de/salvar/grabaciónes",
 			"timeLimitLabel": "Límite de tiempo (segundos):",
 			"noNumber": "Antes de configurar la llamada función de grabación para el usuario, se necesita que le asigne un número o una extensión"
 		},
@@ -527,40 +527,40 @@
 			"headline": "Puente de conferencia personal",
 			"pinLabel": "Número personal de la sala de conferencias",
 			"number": "Número(s) de teléfono de conferencia",
-			"help": "Puede crear una llamada de conferencia proveyendo un número de teléfono de conferencia y su número de habitación personal a los participantes ",
-			"noConfNumbers": "Usted necesita agregar un número de conferencia principal (en la sección número principal a la izquierda de la SmartPBX) para permitir los puentes de conferencia personales"
+			"help": "Puede crear una llamada de conferencia proveiendo un número de teléfono de conferencia y su número de habitación personal a los participantes ",
+			"noConfNumbers": "Usted necesita agregar un número de conferencia principal (en la sección número principal a la izquierda de la SmartPBX) para permitir los puentes de conferencia personales "
 		},
 		"faxing": {
-			"title": "Buzón de fax",
-			"headline": " Buzón de fax ",
+			"title": "Faxbox",
+			"headline": "Faxbox",
 			"defaultSettings": {
-				"nameExtension": " Buzón de fax ",
+				"nameExtension": "Faxbox",
 				"headerExtension": "Impresora de Fax"
 			},
-			"__comment": "UI-1354: Agregue una mejor explicación a la función de faxbox",
+			"__comment": "UI-1354: Add better explanation to faxbox feature",
 			"__version": "v3.20_s4",
 			"faxToEmail": {
 				"title": "Fax a correo electrónico ",
 				"text1": "Faxes enviados a",
-				"text2": "Será convertido a correo electrónico y enviado a"
+				"text2": "será convertido a correo electrónico y enviado a"
 			},
 			"emailToFax": {
 				"title": "Correo electrónico a Fax",
 				"text1": "Correos electrónicos enviados a",
-				"text2": "Puede incluir un archivo PDF(o TIFF) y se enviará por fax ",
+				"text2": "Con un PDF(o TIFF) accesorio enviará por fax ",
 				"text3": "El correo electrónico debe provenir de",
-				"default": "{Número de destino}",
+				"default": "{ Número de destino }",
 				"help": {
 					"showHelp": "Mostrar ayuda",
 					"hideHelp": "Ocultar ayuda",
 					"question": "¿A qué número desea enviar un fax?",
-					"placeholder": "Número de destino”
+					"placeholder": "Número de destino "
 				}
 			},
 
 			"googlePrinter": {
 				"title": "Impresora de Google",
-				"text1": "Seleccionar",
+				"text1": "Seleccionar ",
 				"text2": "Para activar la impresora de la nube de Google. Conseguir el instalador de la impresora de ",
 				"link": "Aquí"
 			},
@@ -574,40 +574,40 @@
 			"deleteAfterNotify": "Eliminar los mensajes de la base de datos después de enviar la notificación."
 		},
 		"find_me_follow_me": {
-			"title": "Búscame, Sígueme",
-			"headline": "Configuración de Búscame, Sígueme",
+			"title": "Búscame, Sígueme ",
+			"headline": "Configuración de Búscame, Sígueme ",
 			"disableDevice": "No sonar",
 			"ringThisPhoneFor": "Sonar en este teléfono por ",
 			"noDevice": "Necesita al menos un dispositivo para activar esta función.",
-			"noNumber": "Antes de configurar la función 'Búscame, Sígueme' para este usuario, se necesita que le asigne un número o una extensión",
+			"noNumber": "Antes de configurar la función 'Búscame, Sígueme' para este usuario, se necesita que le asigne un número o una extensión ",
 			"distribute": "Distribuir"
 		},
 		"caller_id": {
-			"title": "Identificador de número de llamada(caller-ID) ",
+			"title": "Identificador de número de llamada (caller-ID) ",
 			"dropdownLabel": "Mostrar mi identificación de número de llamada como",
 			"headline": "Configuración de identificador de número de usuario",
 			"help": "Si no habilita esta característica, el identificador de número que aparece de forma predeterminada será la configurada en el número principal de la cuenta."
 		},
 		"music_on_hold": {
 			"title": "Música de espera ",
-			"headline": "Configuración de música de espera del usuario",
+			"headline": "Configuacion de música de espera del Usuario",
 			"dropdownLabel": "Música de espera:",
 			"silence": "Silencio",
 			"emptyUploadAlert": "Por favor, seleccione un archivo para cargar ",
 			"fileTooBigAlert": "No se puede cargar un archivo con un tamaño que excede los 5 Mb ",
-			"__comment": "UI-1025: Actualización de cargas de archivos multimedia a través de la IU",
+			"__comment": "UI-1025: Updating media file uploads throughout the UI",
 			"__version": "3.20_s3",
-			"audioUploadButton": "Navegar...”
+			"audioUploadButton": "Navegar  ..."
 		},
 		"hotdesk": {
 			"id": "Hotdesk ID",
 			"label": "¿Requiere un PIN?",
 			"keep_logged_in_elsewhere": "Permitir inicio de sesión en varios dispositivos",
 			"title": "Hot-Desking",
-			"headline": "Configuración Hot-Desking del Usuario",
+			"headline": "Configuracion Hot-Desking del Usuario",
 			"help": "El Hot-Desking ID se define automáticamente como el número de extensión del usuario."
 		},
-		"__comment": "UI-1129: Herramienta de migración de Kazoo-UI a Monster-UI",
+		"__comment": "UI-1129: Migration tool from Kazoo-UI to Monster-UI",
 		"__version": "3.19",
 		"migration": {
 			"confirmMigration": "Nos encontramos con un flujo de llamada existente con el número que está intentando agregar, parece que podemos migrar este flujo al SmartPBX. Antes de proceder, queremos que usted entienda que a usted no se le permitirá actualizar este flujo en Kazoo-UI o en la aplicación de flujos Monster-UI después de este cambio. ¿Desea continuar?",
@@ -618,16 +618,16 @@
 		"presenceIDPopup": {
 			"title": "Seleccione su nueva extensión principal ",
 			"header": "Parece que quiere quitar el número que había puesto como su extensión principal. Por favor seleccione su nueva extensión principal de las opciones abajo:",
-			"none": "No quiero establecer una nueva extensión principal”
+			"none": "No quiero establecer una nueva extensión principal "
 		},
-		"__comment": "UI-1393: Actualización de dispositivos de usuario para usar el control común de monsterListing",
+		"__comment": "UI-1393: Updating user devices to use the monsterListing common control",
 		"__version": "v3.20_s4",
 		"devices": {
 			"newDevice": "Nuevo dispositivo",
 			"spareDevice": "Agregar de dispositivos sobrantes"
 		},
 
-		"__comment": "UI-1604: Agregar Tutorial para nuevos usuarios",
+		"__comment": "UI-1604: Adding Walkthrough for new users",
 		"__version": "3.21",
 		"walkthrough": {
 			"steps": {
@@ -635,18 +635,18 @@
 				"2": "Una vez que un usuario es creado, rellenará el área aquí. Haga cualquier cambio necesario en el usuario específico dentro de ajustes de Usuarios",
 				"3": "Provea a Usuarios con sus propios números de extensión directo.",
 				"4": "Haga clic en el botón para comprar, transferir y asignar los números. Una vez completo, se asignará automáticamente al usuario específico.",
-				"5": "Auto provisione uno de nuestros dispositivos patrocinados. El UI viene completo de fabricantes pre poblados y dispositivos. Una vez completado será automáticamente asignado al usuario específico.",
+				"5": "Autoprovisine uno de nuestros dispositivos apoyados. El UI viene completo de fabricantes prepoblados y dispositivos. Una vez completado será automáticamente asignado al usuario específico.",
 				"6": "Administrar las funciones que los usuarios pueden acceder. Activar/desactivar y gestionar cualquiera de las funciones de usuario."
 			}
 		}
 	},
 
 	"strategy": {
-		"noNumberHelp": "Nota: Por favor, agregue un número principal de su cuenta de la oficina. Una vez que se agrega un número principal, usted será capaz de configurar horarios de oficina, durante las vacaciones y gestión de llamadas entrantes (Call-Flow) para su oficina.",
+		"noNumberHelp": "Nota: Por favor, agregue un número de la oficina principal de su cuenta. Una vez que se agrega un número principal, usted será capaz de configurar horas de oficina, durante las vacaciones y gestión de llamadas entrantes ( Call-Flow ) para su oficina.",
 		"sectionTitles": {
 			"numbers": "Número principal de la Compañía",
 			"confnum": "Número de conferencia principal",
-			"hours": "Estrategia de horarios de oficina",
+			"hours": "Estrategia de horas de oficina",
 			"holidays": "Vacaciones de la oficina",
 			"calls": "Manejo de la llamada entrante"
 		},
@@ -661,35 +661,35 @@
 				"tollfree": "Número de teléfono gratuito(Toll-Free)",
 				"vanity": "Vanidad"
 			},
-			"port": "Transferir (port) números"
+			"port": "Transferir(port) números"
 		},
 		"hours": {
-			"alwaysOpenTitle": "Oficina abierta las 24 horas ",
-			"alwaysOpenDescription": "Elija esta opción si quiere que las llamadas entrantes sean manejadas de la misma manera todo el tiempo.",
-			"customHoursTitle": "Horario de oficina personalizado",
-			"customHoursDescription": "Elija esta opción si quiere que las llamadas entrantes sean manejadas diferente cuando su oficina esté cerrada.",
-			"listTitle": "Horarios personalizados",
-			"timezone": "Zona horaria de la compañía:",
+			"alwaysOpenTitle": "Oficina abierta 24 horas ",
+			"alwaysOpenDescription": "Elija esta opción si quiere que lasllamadas entrantes sean manejadas de la misma manera todo el tiempo.",
+			"customHoursTitle": "Horas de oficina personalizadas",
+			"customHoursDescription": "Elija esta opción si quiere que las llamadas entrantes sean manejadas diferente cuando su oficina está cerrada.",
+			"listTitle": "Horas personalizadas",
+			"timezone": "Zona horaria de la compania:",
 			"to": "A",
-			"lunchbreakTitle": "¿Están cerrados en el horario de almuerzo?",
-			"__comment": "UI-1250: Agregar cuadros de ayuda",
+			"lunchbreakTitle": "¿Están cerrados en las horas de almuerzo ?",
+			"__comment": "UI-1250: Adding help boxes",
 			"__version": "3.20_s2",
-			"helpAfterHours": "¡No olvide de poner el enrutamiento de llamadas cuando su oficina esté cerrada por la noche! Para configurarlo, vaya a la sección de \"Manejo de llamadas entrantes\" en esta página, y seleccione la opción \" Fuera de horario\". Para configurarlo, vaya a la sección \"Manejo de llamadas entrantes\" en esta página, y seleccione opción \"fuera de horario\".",
-			"helpLunchHours": "Si su oficina está cerrada durante las horas de almuerzo, también tiene que elegir el enrutamiento de llamadas para esto. Para configurarlo, vaya a la sección \"Manejo de llamadas entrantes\" en esta página, y seleccione opción \"Horario de almuerzo\"."
+			"helpAfterHours": "¡No olvide de poner el enrutamiento de llamadas cuando su oficina este cerrada por la noche! Para configurarlo, vaya a la sección de \"Manejo de llamadas entrantes\" en esta página, y seleccione la opcion \" Fuera de horario\". Para configurarlo, vaya a la sección \"Manejo de llamadas entrantes\" en esta página, y seleccione opción \"fuera de horario\".",
+			"helpLunchHours": "Si su oficina está cerrada durante las horas de almuerzo, también tiene que elegir el enrutamiento de llamadas para esto. Para configurarlo, vaya a la sección \"Manejo de llamadas entrantes\" en esta página, y seleccione opcion \"Horario de almuerzo\"."
 		},
 		"holidays": {
-			"enableTitle": "¿Estás cerrado durante los días feriados?",
+			"enableTitle": "¿Estás cerrado durante días feriados?",
 			"addLink": "Agregar día feriado",
 			"singleLink": "Solo un día",
 			"rangeLink": "Intervalo de tiempo",
 			"advancedLink": "Avanzado",
-			"__comment": "UI-1250: Agregar cuadros de ayuda",
+			"__comment": "UI-1250: Adding help boxes",
 			"__version": "3.20_s2",
-			"helpHolidays": "¡No te olvides de configurar el enrutamiento de la llamada para el momento que la Compañía esté cerrado en los días feriados! Para configurarlo, vaya a la sección \"Manejo de llamadas entrantes\" en esta página, y seleccione opción \"Días Feriados\"."
+			"helpHolidays": "No te olvides de configurar el enrutamiento de la llamada para elmomento que el consultorio está cerrado en los días feriados! Para configurarlo, vaya a la sección \"Manejo de llamadas entrantes\" en esta página, y seleccione opcion \"Días Feriados\"."
 
 		},
 		"calls": {
-			"openHoursTitle": "Horarios abiertos",
+			"openHoursTitle": "Horas abiertos",
 			"lunchHoursTitle": "Horario de almuerzo ",
 			"afterHoursTitle": "Fuera de horario ",
 			"holidaysTitle": "Días feriados",
@@ -699,20 +699,20 @@
 			"groupOther": "Otro",
 			"optionNone": "Vaya directamente al correo de voz",
 			"callTabsMessages": {
-				"MainOpenHours":"Seleccione el modo en que las personas se pondrán en contacto con usted cuando su oficina esté abierta.",
-				"MainLunchHours":"Seleccione el modo en que las personas se pondrán en contacto con usted cuando su oficina esté en horario de almuerzo.",
-				"MainAfterHours":"Seleccione el modo en que las personas se pondrán en contacto con usted cuando su oficina esté cerrada.",
-				"MainHolidays":"Seleccione el modo en que las personas se pondrán en contacto con usted en los días feriados."
+				"MainOpenHours":"Seleccione el modo en que las personas quieren ponerse en contacto con usted cuando su oficina está abierta.",
+				"MainLunchHours":"Seleccione el modo en que las personas quieren ponerse en contacto con usted cuando su oficina esté en horas de almuerzo.",
+				"MainAfterHours":"Seleccione el modo en que las personas quieren ponerse en contacto con usted cuando su oficina está cerrada.",
+				"MainHolidays":"Seleccione el modo en que las personas quieren ponerse en contacto con usted en los días feriados."
 			}
 		},
 		"popup": {
 			"title": "Recepcionista virtual ",
-			"infoBlock": "El recepcionista virtual contestará llamadas entrantes profesionalmente y automáticamente los transferirá a un departamento o persona apropiada. El menú principal permitirá que usted establezca rutas de llamada. Por favor escriba o grabe saludos que coincidan con el menú principal.",
+			"infoBlock": "El Recepcionista virtual contestará llamadas entrantes profesionalmente y automáticamente los transferirá a un departamento o persona apropiada. El menú principal permitirá que usted establezca rutas de llamada. Por favor escriba o grabe saludos que coincidan con el menú principal.",
 			"menuTitle": "Menú principal ",
 			"greetingsTitle": "Saludos",
 			"addRouteLink": "Agregar ruta ",
 			"ttsGreetingTitle": "Texto a voz ",
-			"ttsGreetingPlaceholder": "Por favor introduzca su mensaje de saludo aquí.",
+			"ttsGreetingPlaceholder": "Por favor Introduzca su mensaje de saludo aquí.",
 			"uploadGreetingTitle": "Cargar su propio archivo",
 			"recordGreetingTitle": "Registro por teléfono",
 			"recordGreetingInfo": "Grabar el mensaje de saludo sobre el teléfono, siguiendo los pasos de abajo:",
@@ -724,15 +724,15 @@
 			},
 			"pressKey": "Presionar",
 			"for": "Para",
-			"__comment": "UI-1025: Actualización de cargas de archivos multimedia a través de la IU",
+			"__comment": "UI-1025: Updating media file uploads throughout the UI",
 			"__version": "3.20_s3",
 			"fileUploadButton": "Seleccione archivo",
-			"__comment": "UI-1185: Agregar un mensaje de ayuda a los saludos",
+			"__comment": "UI-1185: Adding a help message to the greetings",
 			"__version": "3.20_s4",
-			"greetingsHelp": "Es necesario que haga clic en el botón \"Actualizar\" para guardar los cambios para el mensaje de saludo."
+			"greetingsHelp": "Es necesario que haga clic en el botón \"Actualizar\" para guardar los cambios para el mensaje de saludo."
 		},
-		"open": "Abierto",
-		"closed": "Cerrado",
+		"open": "Abrir",
+		"closed": "Cerrar",
 		"weekdays": {
 			"monday": "Lunes",
 			"tuesday": "Martes",
@@ -759,7 +759,7 @@
 			"june": "Junio",
 			"july": "Julio",
 			"august": "Agosto",
-			"september": "Septiembre",
+			"september": "Septiempre",
 			"october": "Octubre",
 			"november": "Noviembre",
 			"december": "Diciembre"
@@ -769,7 +769,7 @@
 			"device": "Dispositivo",
 			"ring_group": "Grupo de repique",
 			"voicemail": "Buzón de voz",
-			"__comment": "UI-1353: Agregar directorio de soporte para la recepcionista virtual",
+			"__comment": "UI-1353: Add directory support for the virtual receptionist",
 			"__version": "v3.20_s4",
 			"directory": "Directorio"
 		},
@@ -784,7 +784,7 @@
 			"emptyUploadGreeting": "Por favor, seleccione un archivo para cargar ",
 			"fileTooBigAlert": "No puede cargar un archivo con un tamaño que excede los 5 Mb",
 			"uniqueMenuNumbers": "Los números dentro del menú deben ser únicos y no estar vacíos.",
-			"lastE911Error": "Necesita e911 establecido en al menos uno de sus números principales. Por favor establezca e911 en otro número principal antes de suprimir éste."
+			"lastE911Error": "Necesita e911 establecido en al menos un de sus números principales. Por favor establezca e911 en otro número principal antes de suprimir éste."
 		},
 		"toastrMessages": {
 			"updateHolidaySuccess": "Los días feriados se han actualizado correctamente.",
@@ -804,7 +804,7 @@
 			}
 		},
 
-		"__comment": "UI-1604: Tablero de tutorial",
+		"__comment": "UI-1604: Walkthrough dashboard",
 		"__version": "3.21",
 		"walkthrough": {
 			"first": {
@@ -815,9 +815,9 @@
 			"second": {
 				"steps": {
 					"1": "Establezca su estrategia de teléfono de horas de consulta a su conveniencia. Usted puede configurar una estrategia de oficina abierta 24 horas o si su oficina está siempre cerrada, crear horarios personalizados. Incluso puede cerrar su oficina durante las horas de almuerzo.",
-					"2": "¿Está cerrada su oficina en días feriados? Cree fechas específicas o márgenes de tiempo cuando su oficina estará cerrada ",
+					"2": "¿Está cerrada su oficina en días feriados? Cree fechas específicas o margenes de tiempo cuando su oficina estará cerrada ",
 					"3": "Recepcionista virtual le permite perfectamente contestar llamadas entrantes. Añada rutas de llamada para ponerse en contacto con el departamento o persona correspondiente dentro del sistema. También puede crear saludos personalizados usando texto a voz, cargar su propio archivo o grabación por teléfono.",
-					"4": "Cree un Número de conferencia principal para su negocio. Se puede comprar, portar o añadir un número existente y establecer un número de conferencia fácilmente."
+					"4": "Cree un Número de conferencia principal para su negocio. Se puede comprar, portar o añadir un número existente y establecer un número de conferencia facilmente."
 				}
 			}
 		}
@@ -839,21 +839,21 @@
 			"duration1": "Duración",
 			"duration2": "(Min)",
 			"hangup1": "Colgar",
-			"hangup2": "Causa",
+			"hangup2": "Causar",
 			"details1": "Llamada",
 			"details2": "Detalles",
 			"report1": "Submitir",
 			"report2": "Reportar"
 		},
 		"reportCall": "Reportar llamada",
-		"loaderMessage": "Desplácese hacia abajo o haga clic aquí para cargar registros de llamadas adicionales.",
+		"loaderMessage": "Desplacese hacia abajo o haga clic aquí para cargar registros de llamadas adicionales.",
 		"loadingMessage": "Cargar registros de llamadas adicionales...",
 		"alertMessages": {
 			"getDetailsError": "Se ha producido un error al recuperar los detalles de registro de llamadas."
 		},
 		"key": "Clave",
 		"value": "Valor",
-		"__comment": "UI-1071: Agregar nuevos botones de rango a los registros de llamadas",
+		"__comment": "UI-1071: Adding new Range buttons to Call Logs",
 		"__version": "3.20",
 		"thisMonth": "Este mes",
 		"thisWeek": "Esta llamada",
@@ -878,25 +878,25 @@
 			"default": "Música predeterminada",
 			"emptyUploadAlert": "Por favor, seleccione un archivo para cargar",
 			"fileTooBigAlert": "No se puede cargar un archivo con un tamaño que excede los 5 Mb ",
-			"__comment": "UI-1025: Actualización de cargas de archivos multimedia a través de la IU",
+			"__comment": "UI-1025: Updating media file uploads throughout the UI",
 			"__version": "3.20_s3",
-			"audioUploadButton": "Navegar...”
+			"audioUploadButton": "Navegar ..."
 		},
 		"callerId": {
 			"title": "Identificación de llamadas de la compañía",
 			"headline": "Seleccione un número de identificación de llamadas de la cuenta ",
 			"numberLabel": "Identificación de llamadas de la compañía",
-			"numberHelp": "Este número aparecerá como su ID de llamada cuando se hacen llamadas salientes. Debe ser de menos de 15 caracteres (incluyendo espacios).",
+			"numberHelp": "Este número aparecerá como su ID de llamada cuando se hacen llamadas salientes. Debe ser menos de 15 caracteres (incluyendo espacios).",
 			"nameLabel": "Nombre identificador de la compañía ",
 			"nameHelp": "Este nombre aparecerá como su ID de llamada cuando realiza llamadas salientes.",
-			"emergencyLabel": "Número de emergencia (E911) de la compañía ",
+			"emergencyLabel": "Dirección de emergencia (E911) de la compañía ",
 			"emergencyZipcode": "Código Postal",
 			"emergencyAddress1": "Dirección línea 1",
 			"emergencyAddress2": "Dirección línea 2",
-			"emergencyCity": "Ciudad",
+			"emergencyCity": "Cuidad",
 			"emergencyState": "Estado",
-			"emergencyHelp1": "Esta dirección aparecerá como su dirección de identificador al hacer llamada de emergencia saliente a una agencia del gobierno (ej. 911 in the US).",
-			"emergencyHelp2": "Nota: puede poner este rasgo en los números de los usuarios también si no comparten la misma ubicación que el anterior.",
+			"emergencyHelp1": "Esta dirección aparecerá como su dirección de identificador al hacer llamada de emergencia saliente a una agencia del gobierno (e.g. 911 in the US).",
+			"emergencyHelp2": "Nota: puede poner este rasgo en los números de los usuarios también si no comparten la misma ubicación que el anterior.",
 			"mandatoryE911Alert": "Se debe especificar información de e911 para su número de identificación de llamadas de empresa."
 		},
 		"missingMainNumberForCallerId": "¡Tienes que añadir un número principal a su oficina antes de configurar el identificador de llamadas!",
@@ -917,30 +917,30 @@
 			"assigned": "Números asignados",
 			"spare": "Números de repuesto",
 			"local": "Números locales",
-			"tollfree": "Números gratuitos(Toll-Free)",
+			"tollfree": "Números gratuitos Toll-Free",
 			"international": "Números internacionales",
 			"noNumber": "No hay ningún número disponible"
 		},
-		"__comment": "UI-1220: Agregar un VMBox principal automáticamente cuando cargan Smart PBX por primera vez si no tienen uno",
+		"__comment": "UI-1220: Adding a Main VMBox automatically when they first load the SmartPBX if they don't have one",
 		"__version": "3.19",
 		"mainVMBoxName": "Buzón de voz principal",
 
-		"__comment": "UI-1604: Tablero de tutorial",
+		"__comment": "UI-1604: Walkthrough dashboard",
 		"__version": "3.21",
 		"walkthrough": {
 			"steps": {
 				"1": "Examine el sistema de la oficina entero incluso sus usuarios, dispositivos, números, número principal y número de conferencia.",
-				"2": "Cree y maneje la mayor parte de sus servicios en la etiqueta usuarios. Cree nuevos usuarios, compre el puerto, y asigne números, añada unos dispositivos de auto provisión y maneje funciones de usuario.",
+				"2": "Cree y maneje la mayor parte de sus servicios en la etiqueta Usuarios. Cree a nuevos usuarios, compre el puerto, y asigne números, añada unos dispositivos de autoprovisión y maneje funciones de usuario.",
 				"3": "Una vez que ha creado suficientes usuarios, crear grupos de usuarios. Esto es muy útil si tienes usuarios que trabajan en el mismo departamento, como un equipo de ventas.",
 				"4": "Crear un número principal para su negocio. Maneje gestión de llamadas con el Recepcionista Virtual, y enrutar las llamadas en función de horas de oficina y días festivos."
 			}
 		}
 	},
 
-	"__comment": "UI-299, v3.19_s2: Se agregó la pestaña códigos de funciones a Smart PBX.",
+	"__comment": "UI-299, v3.19_s2: Added the Feature Codes tab to SmartPBX.",
 	"featureCodes": {
-		"title": "Códigos de función disponibles",
-		"noFeatureCodeMessage": "No hay códigos de función activados en su cuenta. Códigos de función se crean automáticamente cuando se carga la página principal.",
+		"title": "Códigos de función disponible",
+		"noFeatureCodeMessage": "No hay códigos de función activado en su cuenta. Códigos de función se crean automáticamente cuando se carga la página principal.",
 		"mainNumberLink": "Ir al número principal",
 		"labels": {
 			"call_forward[action=activate]": "Permitir desvío de llamada",
@@ -948,66 +948,66 @@
 			"call_forward[action=toggle]": "Activar desvío de llamada",
 			"call_forward[action=update]": "Activar/desactivar desvío de llamada",
 			"call_forward[action=on_busy_enable]": "Activar desvío de llamada cuando esté ocupado",
-			"call_forward[action=on_busy_disable]": "Desactivar desvío de llamadas cuando esté ocupado",
-			"call_forward[action=no_answer_enable]": "Actualizar desvío de llamadas cuando no contestan",
-			"call_forward[action=no_answer_disable]": "Desactivar desvío de llamadas no contestan",
+			"call_forward[action=on_busy_disable]": "Desactivar desvío de llamadas cuando esté ocupado",
+			"call_forward[action=no_answer_enable]": "Actualizar desvío de llamadas cuando no Contestan",
+			"call_forward[action=no_answer_disable]": "Desactivar desvío de llamadas no Contestan",
 			"hotdesk[action=login]": "Activar Hot Desking",
 			"hotdesk[action=logout]": "Desactivar Hot Desking",
-			"hotdesk[action=toggle]": "Activar/Desactivar Hot Desking",
-			"voicemail[action=check]": "Revisar buzón de voz",
+			"hotdesk[action=toggle]": "Activatar/Desactivar Hot Desking",
+			"voicemail[action=check]": "Revisar buzón de Voz",
 			"voicemail[action=\"direct\"]": "Directo al buzón de voz",
 			"intercom": "Interfono",
 			"privacy[mode=full]": "Privacidad",
-			"park_and_retrieve": "Parquear y recuperar",
+			"park_and_retrieve": "Parque y recuperar",
 			"valet": "Valet",
 			"retrieve": "Recuperar",
 			"donotdisturb[action=\"enable\"]": "Activar la función de no molestar",
-			"donotdisturb[action=\"disable\"]": "Desactivar la función de no molestar","donotdisturb[action=\"toggle\"]": "Activar/Desactivar la función de no molestar",
+			"donotdisturb[action=\"disable\"]": "Desactivar la función de no molestar","donotdisturb[action=\"toggle\"]": "Activar/Desactivar la función de no molestar ",
 			"directory": "Directorio",
 			"time": "Tiempo de retención",
 			"call_waiting[action=enable]": "Permite llamada en espera",
 			"call_waiting[action=disable]": "Desactivar llamada en espera",
-			"sound_test_service": "Comprobar prueba de sonido",
+			"sound_test_service": "Comprobar de prueba de sonido",
 			"call_recording": "Grabación de llamadas",
-			"__comment": "UI-1395: Se agregó el código de función del correo de voz [single_mailbox_login]",
+			"__comment": "UI-1395: Added voicemail[single_mailbox_login] feature code",
 			"__version": "3.20",
 			"voicemail[single_mailbox_login]": "Revisar correo de voz (inicio de sesión automático)"
 		},
-		"__comment": "UI-1028, v3.20_s0: Se agregaron categorías para los códigos de funciones.",
+		"__comment": "UI-1028, v3.20_s0: Added categories for the feature codes.",
 		"categories": {
 			"call_forward": "Desvío de llamadas",
 			"hotdesk": "Hot-Desking",
 			"parking": "Estacionar",
 			"do_not_disturb": "No Molestar",
-			"misc": "Misceláneo”
+			"misc": "Misceláneo "
 		}
 	},
 
-	"__comment": "UI-1220: Módulo VMBox agregado",
+	"__comment": "UI-1220: Added VMBox module",
 	"__version": "3.19",
 	"vmboxes": {
 		"addTitle": "Agregar un buzón de voz",
-		"editTitle": "Editar un buzón de voz: {{ name}}",
-		"title": "Buzones de voz totales",
+		"editTitle": "Editar un buzón de voz: {{ name }}",
+		"title": "Buzónes de voz totales",
 		"add": "Agregar un buzón de voz",
 		"new": "Nuevo buzón de voz",
-		"createVmbox": "Crear un buzón de voz nuevo",
-		"deleteVmbox": "Borrar un buzón de voz",
+		"createVmbox": "Crear un buzón de voz nuevo ",
+		"deleteVmbox": "Borar un buzón de voz",
 		"deleteNotAllowed": "No se puede borrar este buzón porque pertenece a un usuario",
 		"confirmDeleteVmbox": "Este buzón de voz se eliminará permanentemente. ¿Desea continuar?",
-		"deletedVmbox": "Se ha eliminado el siguiente buzón de \"{{vmboxName}}\".",
+		"deletedVmbox": "Se ha eliminado el siguiente Buzón de \"{{vmboxName}}\".",
 		"titleGrid": {
 			"name": "Nombre",
 			"number": "Número",
 			"owner": "Usuario",
 			"edit": "Editar"
 		},
-		"noMatchingVMBoxes": "No hay buzones de correo de voz, no se han encontrado coincidencias con la búsqueda",
-		"noVMBoxesConfigured": "No hay buzones de correo de voz configurados",
+		"noMatchingVMBoxes": "No hay buzones de correo de voz no se han encontrado coincidencias con la búsqueda",
+		"noVMBoxesConfigured": "No hay buzones de correo de voz configurado ",
 		"popupSettings": {
 			"advancedTitle": "Avanzado",
 			"basicTitle": "Configuraciones básicas",
-			"basicSectionTitle": "Configuración básica",
+			"basicSectionTitle": "Configuración básica",
 			"basic": {
 				"name": {
 					"label": "Nombre"
@@ -1023,7 +1023,7 @@
 				"menuTitle": "Opciones",
 				"sectionTitle": "Opciones",
 				"timezone": {
-					"label": "Zona horaria"
+					"label": "Zona Horaria"
 				},
 				"unavailableMessage": {
 					"label": "Mensaje no disponible"
@@ -1032,16 +1032,16 @@
 					"label": "Zona Horaria"
 				},
 				"alreadySetup": {
-					"label": "¿Ya configurado?",
-					"help": "¿Este buzón de voz ya se considera inicializado? Sino, la primera vez que el usuario inicia sesión se verá obligado a cambiar su PIN y configurar un saludo."
+					"label": "¿Ya Configuardo?",
+					"help": "¿Este buzón de voz ya se considera inicializado? Si no, la primera vez que el usuario inicia sesión se verá obligado a cambiar su PIN y configurar un saludo."
 				},
 				"requirePIN": {
-					"label": "¿Requiere PIN?",
+					"label": "Requiere PIN?",
 					"help": "Verificar si el correo de voz requiere un PIN."
 				},
 				"autoLogin": {
-					"label": "¿Ingreso automático activado (auto-login)?",
-					"help": "¿Activar auto-login para este buzón de voz? (Si el usuario llama a su propio buzón de voz, va directo a sus mensajes)"
+					"label": "¿Ingreso automático (auto-login) activado?",
+					"help": "¿Compruebar activar auto-login para este buzón de voz? (Si el usuario llama a su propio buzón de voz, va directo a sus mensajes)"
 				},
 				"skipGreetings": {
 					"label": "¿Pasar saludos por alto?",
@@ -1057,22 +1057,22 @@
 				},
 				"configurable": {
 					"label": "¿Configurar a través del menú?",
-					"help": "Si no está activado, no permitirá al usuario configurar el correo de voz a través del menú”
+					"help": "Si no activado, no permitirá al usuario configurar el correo de voz a través del menú "
 				}
 			},
 			"recipients": {
 				"menuTitle": "Recipiente",
 				"sectionTitle": "Recipiente",
 				"header": "Este panel le permite administrar quienes serán notificados cuando alguien deje un mensaje en el buzón de voz. Haga clic en \"Añada el Nuevo Recipiente\" para añadir una dirección de correo electrónico a la lista",
-				"create": "Añada el nuevo recipiente"
+				"create": "Añada el nuevo Recipiente"
 			}
 		}
 	},
 
-	"__comment": "UI-1219: Agregar la función de anteponer a los números",
+	"__comment": "UI-1219: Adding the prepend feature to numbers",
 	"__version": "v3.20_s1",
-	"numberPrepend": "Anteponer",
-	"__comment": "UI-1153: Mostrar icono de advertencia junto a los números que se transfieren",
+	"numberPrepend": "Prepend",
+	"__comment": "UI-1153: Show warning icon next to numbers being transfered",
 	"__version": "v3.20_s3",
 	"portIconHelp": "Este número está en proceso de ser portado y serán eliminados si el puerto falla. Sólo aparece para el establecimiento de objetivos y no está configurado para manejar las llamadas"
 }
